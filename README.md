@@ -1,5 +1,6 @@
 # 🧠 Wikipedia Summarizer
 
+
 A simple and interactive command-line application built with Python.  
 It allows users to input any topic and returns a clean, concise summary using the Wikipedia API.
 
@@ -10,19 +11,19 @@ It allows users to input any topic and returns a clean, concise summary using th
 - 🔎 Summarize any topic from Wikipedia  
 - 📚 Get brief, readable summaries  
 - ⚠️ Handles broad, ambiguous, or misspelled queries gracefully  
-- 🌐 Uses the `wikipedia` Python library to access real-time data  
+- 🌐 Uses the `wikipedia` Python library to access real-time data
 
 ---
 
 ## 🧰 Tech Stack
 
-| Tool            | Description                          |
-|-----------------|------------------------------------|
-| Python          | Core programming language           |
-| wikipedia       | Python wrapper for Wikipedia's API |
-| JSON            | For handling API responses          |
-| Google Colab / VS Code | Development environments       |
-| Git & GitHub    | Version control and publishing      |
+| Tool                 | Description                          |
+|----------------------|------------------------------------|
+| Python               | Core programming language           |
+| wikipedia            | Python wrapper for Wikipedia's API |
+| JSON                 | For handling API responses          |
+| Google Colab / VS Code | Development environments           |
+| Git & GitHub         | Version control and publishing      |
 
 ---
 
@@ -31,35 +32,36 @@ It allows users to input any topic and returns a clean, concise summary using th
 ### Prerequisites
 
 - Python 3.x installed  
-  👉 [Download Python](https://www.python.org/downloads/)
+  [Download Python](https://www.python.org/downloads/)
 
----
+### Installation & Running
 
-### 🔧 Installation & Running
+  ```bash
+   pip install wikipedia
+   ```
 
-1. **Install the required library:**
+2. Run the application::
 
    ```bash
-   pip install wikipedia
+   python wikipedia_summarizer.py
+   ```
 
-Run the application:
-<br>
-python wikipedia_summarizer.py
-💡 How It Works
+## 🛠️ How It Works
+
 Prompts user to enter any topic
 
 Uses Wikipedia API to fetch a brief summary
 
 Displays the summary or gives suggestions if the topic is ambiguous
 
+---
 
-💬 Example Output
+## 💡 Example Output
 
 🔎 Enter a topic to summarize from Wikipedia: python
 
 📘 Summary of 'Python':
-Python is a high-level, general-purpose programming language. 
-Its design philosophy emphasizes code readability with its use of significant indentation...
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation...
 
 🔎 Enter a topic to summarize from Wikipedia: love
 
@@ -71,19 +73,25 @@ Here are some options:
 
 Try being more specific.
 
-📂 Project Structure
+```
 
+---
+
+## 📂 Project Structure
+
+```
 wikipedia-summarizer/
-<br>
 ├── wikipedia_summarizer.py
-<br>
 └── README.md
-<br>
+```
 
-🙋‍♀️ Author
-Gugulothu Shruthi
-B.Tech, CSE — Narayanamma Institute of Technology
-<br>
-✉️ gugulothushruthi@gmail.com
+---
 
+## 🙋‍♀️ Author
+
+**Gugulothu Shruthi**  
+B.Tech,CSE-Narayanamma Institute of Technology  
+✉️ [gugulothushruthi@gmail.com](mailto:gugulothushruthi@gmail.com)
+
+---
 
