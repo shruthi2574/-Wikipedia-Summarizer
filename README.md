@@ -16,13 +16,13 @@ It allows users to input any topic and returns a clean, concise summary using th
 
 ## 🧰 Tech Stack
 
-| Tool         | Description                          |
-|--------------|--------------------------------------|
-| Python       | Core programming language            |
-| wikipedia    | Python wrapper for Wikipedia's API   |
-| JSON         | For handling API responses           |
-| Google Colab / VS Code | Development environment    |
-| Git & GitHub | Version control and publishing       |
+| Tool            | Description                          |
+|-----------------|------------------------------------|
+| Python          | Core programming language           |
+| wikipedia       | Python wrapper for Wikipedia's API |
+| JSON            | For handling API responses          |
+| Google Colab / VS Code | Development environments       |
+| Git & GitHub    | Version control and publishing      |
 
 ---
 
@@ -41,13 +41,6 @@ It allows users to input any topic and returns a clean, concise summary using th
 
    ```bash
    pip install wikipedia
-Download or clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/wikipedia-summarizer.git
-cd wikipedia-summarizer
 Run the application:
 
 bash
@@ -62,13 +55,13 @@ Uses Wikipedia API to fetch a brief summary
 Displays the summary or gives suggestions if the topic is ambiguous
 
 💬 Example Output
-vbnet
+text
 Copy
 Edit
 🔎 Enter a topic to summarize from Wikipedia: python
 
 📘 Summary of 'Python':
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation...
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation...
 
 🔎 Enter a topic to summarize from Wikipedia: love
 
@@ -77,19 +70,17 @@ Here are some options:
 - Love (emotion)
 - Love (film)
 - Love (TV series)
+
 Try being more specific.
-<br>
 📂 Project Structure
 Copy
 Edit
 wikipedia-summarizer/
-<br>
 ├── wikipedia_summarizer.py
-<br>
 └── README.md
-<br>
 🙋‍♀️ Author
 Gugulothu Shruthi
-B.Tech,CSE—Narayanamma Institute of Technology
+B.Tech, CSE — Narayanamma Institute of Technology
 ✉️ gugulothushruthi@gmail.com
+
 
