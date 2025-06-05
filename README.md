@@ -75,17 +75,16 @@ Try being more specific.
 
 ```
 
----
 
 ## 📂 Project Structure
 
 ```
 wikipedia-summarizer/
 ├── wikipedia_summarizer.py
+<br>
 └── README.md
 ```
 
----
 
 ## 🙋‍♀️ Author
 
