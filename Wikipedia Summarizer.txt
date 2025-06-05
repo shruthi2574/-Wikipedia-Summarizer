@@ -1,0 +1,38 @@
+import wikipedia
+import re
+
+wikipedia.set_lang("en")
+
+def get_summary():
+    while True:
+        topic = input("\n🔎 Enter a topic to summarize from Wikipedia (or type 'exit' to quit): ").strip()
+        if topic.lower() == 'exit':
+            print("👋 Exiting the summarizer.")
+            break
+        
+        try:
+            num_sentences_input = input("📏 How many sentences do you want in the summary? (default 5): ").strip()
+            num_sentences = int(num_sentences_input) if num_sentences_input.isdigit() and int(num_sentences_input) > 0 else 5
+            
+            summary = wikipedia.summary(topic, sentences=num_sentences)
+            
+            # Split the summary into sentences for neat line-by-line output
+            sentences = re.split(r'(?<=[.!?]) +', summary)
+            
+            print(f"\n📘 Summary of '{topic}':\n")
+            for sentence in sentences:
+                print(sentence.strip())
+        
+        except wikipedia.exceptions.DisambiguationError as e:
+            print(f"\n⚠️ '{topic}' is too broad. Please choose a more specific term.")
+            print("Here are a few suggestions you can try:")
+            for option in e.options[:5]:
+                print(f" - {option}")
+        
+        except wikipedia.exceptions.PageError:
+            print("❌ Page not found. Please check the spelling and try again.")
+        
+        except Exception as e:
+            print(f"❌ An error occurred: {e}")
+
+get_summary()
