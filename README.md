@@ -47,6 +47,7 @@ It allows users to input any topic and returns a clean, concise summary using th
    ```
 Option 2: Run on Google Colab (No Installation Needed)
 <br>
+
 1.Open Google Colab
 
 2.Create a new notebook
@@ -55,6 +56,8 @@ Option 2: Run on Google Colab (No Installation Needed)
 
 !pip install wikipedia
 <br>
+
+ 
 4.Paste the summarizer code in the next cell and run it
 
 ---
