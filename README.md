@@ -45,7 +45,8 @@ It allows users to input any topic and returns a clean, concise summary using th
    ```bash
    python wikipedia_summarizer.py
    ```
-   ☁️ Option 2: Run on Google Colab (No Installation Needed)
+Option 2: Run on Google Colab (No Installation Needed)
+<br>
 1.Open Google Colab
 
 2.Create a new notebook
@@ -53,6 +54,7 @@ It allows users to input any topic and returns a clean, concise summary using th
 3.Run the following in the first cell:
 
 !pip install wikipedia
+<br>
 4.Paste the summarizer code in the next cell and run it
 
 ---
@@ -88,8 +90,6 @@ Try being more specific.
 ```
 
 📂 Project Structure
-
-```
 wikipedia-summarizer-app/
 <br>
 ├── wikipedia-summarizer.py
@@ -97,12 +97,8 @@ wikipedia-summarizer-app/
 └── README.md
 ```
 
-
  🙋‍♀️ Author
 
 **Gugulothu Shruthi**  
 B.Tech,CSE—Narayanamma Institute of Technology  
 ✉️ [gugulothushruthi@gmail.com](mailto:gugulothushruthi@gmail.com)
-
-
-
