@@ -43,6 +43,7 @@ It allows users to input any topic and returns a clean, concise summary using th
    pip install wikipedia
    ---
 Run the application:
+<br>
 python wikipedia_summarizer.py
 ---
 💡 How It Works
@@ -73,8 +74,11 @@ Try being more specific.
 📂 Project Structure
 
 wikipedia-summarizer/
+<br>
 ├── wikipedia_summarizer.py
+<br>
 └── README.md
+<br>
 ---
 🙋‍♀️ Author
 Gugulothu Shruthi
