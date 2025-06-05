@@ -58,6 +58,7 @@ Displays the summary or gives suggestions if the topic is ambiguous
 
 ## 💡 Example Output
 
+
 🔎 Enter a topic to summarize from Wikipedia: python
 
 📘 Summary of 'Python':
@@ -75,7 +76,7 @@ Try being more specific.
 
 ```
 
-
+---
 ## 📂 Project Structure
 
 ```
