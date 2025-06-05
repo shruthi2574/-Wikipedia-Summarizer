@@ -41,23 +41,20 @@ It allows users to input any topic and returns a clean, concise summary using th
 
    ```bash
    pip install wikipedia
+   ---
 Run the application:
-
-bash
-Copy
-Edit
 python wikipedia_summarizer.py
+---
 💡 How It Works
 Prompts user to enter any topic
 
 Uses Wikipedia API to fetch a brief summary
 
 Displays the summary or gives suggestions if the topic is ambiguous
+---
 
 💬 Example Output
-text
-Copy
-Edit
+
 🔎 Enter a topic to summarize from Wikipedia: python
 
 📘 Summary of 'Python':
@@ -72,15 +69,17 @@ Here are some options:
 - Love (TV series)
 
 Try being more specific.
+---
 📂 Project Structure
-Copy
-Edit
+
 wikipedia-summarizer/
 ├── wikipedia_summarizer.py
 └── README.md
+---
 🙋‍♀️ Author
 Gugulothu Shruthi
 B.Tech, CSE — Narayanamma Institute of Technology
+<br>
 ✉️ gugulothushruthi@gmail.com
 
 
