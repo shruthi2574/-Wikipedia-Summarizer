@@ -41,25 +41,25 @@ It allows users to input any topic and returns a clean, concise summary using th
 
    ```bash
    pip install wikipedia
-   ---
+
 Run the application:
 <br>
 python wikipedia_summarizer.py
----
 💡 How It Works
 Prompts user to enter any topic
 
 Uses Wikipedia API to fetch a brief summary
 
 Displays the summary or gives suggestions if the topic is ambiguous
----
+
 
 💬 Example Output
 
 🔎 Enter a topic to summarize from Wikipedia: python
 
 📘 Summary of 'Python':
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation...
+Python is a high-level, general-purpose programming language. 
+Its design philosophy emphasizes code readability with its use of significant indentation...
 
 🔎 Enter a topic to summarize from Wikipedia: love
 
@@ -70,7 +70,7 @@ Here are some options:
 - Love (TV series)
 
 Try being more specific.
----
+
 📂 Project Structure
 
 wikipedia-summarizer/
@@ -79,7 +79,7 @@ wikipedia-summarizer/
 <br>
 └── README.md
 <br>
----
+
 🙋‍♀️ Author
 Gugulothu Shruthi
 B.Tech, CSE — Narayanamma Institute of Technology
