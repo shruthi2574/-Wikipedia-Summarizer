@@ -78,14 +78,18 @@ Here are some options:
 - Love (film)
 - Love (TV series)
 Try being more specific.
+<br>
 📂 Project Structure
 Copy
 Edit
 wikipedia-summarizer/
+<br>
 ├── wikipedia_summarizer.py
+<br>
 └── README.md
+<br>
 🙋‍♀️ Author
 Gugulothu Shruthi
-B.Tech, 2nd Year — Narayanamma Institute of Technology
+B.Tech,CSE—Narayanamma Institute of Technology
 ✉️ gugulothushruthi@gmail.com
 
