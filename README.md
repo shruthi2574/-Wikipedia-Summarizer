@@ -79,17 +79,17 @@ Try being more specific.
 ## 📂 Project Structure
 
 ```
-wikipedia-summarizer/
-├── wikipedia_summarizer.py
-<br>
+wikipedia-summarizer-app/
+├── wikipedia-summarizer.py
 └── README.md
 ```
 
+---
 
 ## 🙋‍♀️ Author
 
 **Gugulothu Shruthi**  
-B.Tech,CSE-Narayanamma Institute of Technology  
+B.Tech,CSE—Narayanamma Institute of Technology  
 ✉️ [gugulothushruthi@gmail.com](mailto:gugulothushruthi@gmail.com)
 
 ---
