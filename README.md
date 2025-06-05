@@ -89,12 +89,12 @@ Try being more specific.
 
 ```
 
-📂 Project Structure
+## 📂 Project Structure
+
 wikipedia-summarizer-app/
-<br>
 ├── wikipedia-summarizer.py
-<br>
 └── README.md
+
 ```
 
  🙋‍♀️ Author
