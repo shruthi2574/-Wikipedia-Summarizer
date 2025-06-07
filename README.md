@@ -92,7 +92,7 @@ Try being more specific.
 
 ```
 
-## 📂 Project Structure
+📂 Project Structure
 
 wikipedia-summarizer-app/
 ├── wikipedia-summarizer.py
